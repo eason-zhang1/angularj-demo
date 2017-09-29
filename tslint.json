@@ -22,7 +22,7 @@
     "label-position": true,
     "max-line-length": [
       true,
-      140
+      240
     ],
     "member-access": false,
     "member-ordering": [
@@ -65,8 +65,9 @@
     ],
     "prefer-const": true,
     "quotemark": [
-      true,
-      "single"
+      /*true,
+      "single"*/
+      false
     ],
     "radix": true,
     "semicolon": [

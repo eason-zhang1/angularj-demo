@@ -9,6 +9,7 @@ import { WeatherComponent } from './weather/weather.component';
 import { CurrencyComponent } from './currency/currency.component';
 import { MovieComponent } from './movie/movie.component';
 import { CONST_ROUTING } from './app.routing'; // 新添加
+import { SharedService } from "./shared.service"; // 新添加
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { CONST_ROUTING } from './app.routing'; // 新添加
     HttpModule,
     CONST_ROUTING // 新添加
   ],
-  providers: [],
+  providers: [SharedService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
