@@ -9,7 +9,8 @@ import { WeatherComponent } from './weather/weather.component';
 import { CurrencyComponent } from './currency/currency.component';
 import { MovieComponent } from './movie/movie.component';
 import { CONST_ROUTING } from './app.routing'; // 新添加
-import { SharedService } from "./shared.service"; // 新添加
+import { SharedService } from "./shared.service";
+import { NavbarComponent } from './navbar/navbar.component'; // 新添加
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SharedService } from "./shared.service"; // 新添加
     MenuComponent,
     WeatherComponent,
     CurrencyComponent,
-    MovieComponent
+    MovieComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

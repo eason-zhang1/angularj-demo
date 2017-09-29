@@ -1,8 +1,8 @@
 <h2>Yahoo! Weather </h2>
 <div class="col-md-8 col-md-offset-2">
   <div class="form-group">
-    <input type="text" [(ngModel)]="id_city" class="form-control" placeholder="Enter City name ..."><br>
-    <input type="text" [(ngModel)]="id_state" class="form-control" placeholder="Enter State. Example CA for California ..."><br>
+    <input [(ngModel)]="id_city" class="form-control" placeholder="Enter City name ..."><br>
+    <input [(ngModel)]="id_state" class="form-control" placeholder="Enter State. Example CA for California ..."><br>
     <button type="button" class="btn btn-primary" (click)="callWeatherService()">Submit</button>
     <br><br><br>
     <br>
